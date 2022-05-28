@@ -76,7 +76,6 @@ body {
 }
 
 .hero-header {
-	font-family: "Roboto";
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -87,16 +86,13 @@ body {
 }
 
 .hero-button {
-	background: var(--accent-color);
+	background-color: var(--accent-color);
 	font-family: inherit;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
-	display: flex;
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--additional-text-color);
 	cursor: pointer;
@@ -108,7 +104,7 @@ body {
 	color: var(--additional-text-color);
 }
 
-.hero-benefits {
+.hero-benefits h3 {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -121,7 +117,6 @@ body {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	text-transform: none;
 	color: var(--secondary-text-color);
 }
 
@@ -129,7 +124,7 @@ body {
 
 .we-doing {
 	font-size: 36px;
-	line-height: 1.17px;
+	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
@@ -149,17 +144,19 @@ body {
 }
 
 .team-list li {
+	background-color: var(--additional-text-color);
+}
+
+.team-list h3 {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
-	background-color: var(--additional-text-color);
 }
 
 .team-list p {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
@@ -180,7 +177,6 @@ body {
 
 .address {
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -207,7 +203,7 @@ body {
 	color: var(--primary-text-color);
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1, 62;
+	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
 
@@ -232,7 +228,6 @@ body {
 }
 
 .portfolio p {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
